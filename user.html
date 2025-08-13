@@ -8,11 +8,41 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
   <title>index</title>
+  <script type="module" crossorigin src="/web-layout-training-vite/assets/main-BUuzZmwe.js"></script>
+  <link rel="stylesheet" crossorigin href="/web-layout-training-vite/assets/main-BKvkQ81y.css">
 </head>
 
 <body>
-  <%- include('./layout/header'); -%>
-    <main class="bg-gray">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="/web-layout-training-vite/assets/logo-CRTeTChE.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item me-3">
+                    <a class="nav-link active " aria-current="page" href="#">服務方案</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link " href="#">關於職旅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">聯絡我們</a>
+                </li>
+
+            </ul>
+        </div>
+        <div>
+            <a href="user.html">
+                <img src="/web-layout-training-vite/assets/avatar-QGHQ479s.png" alt="avatar" class="user-image rounded-circle me-2">
+                Mokumaru
+            </a>
+        </div>
+    </div>
+</nav>    <main class="bg-gray">
       <div class="container py-80">
         <div class="row justify-content-center">
           <div class="col-10">
@@ -52,7 +82,7 @@
                   </div>
                   <div class="w-100">
                     <div class="d-flex mb-4">
-                      <img src="../assets/images/avatar.png" alt="avatar" class="rounded-circle me-3">
+                      <img src="/web-layout-training-vite/assets/avatar-QGHQ479s.png" alt="avatar" class="rounded-circle me-3">
                       <div class="align-self-end">
                         <input type="file" name="avatar" id="avatar" class="d-none">
                         <label for="avatar" class="btn border"><span
@@ -700,9 +730,20 @@
 
 
     </main>
-    <%- include('./layout/footer'); -%>
-
-      <script type="module" src="../main.js"></script>
+    <footer class="bg-gray ">
+    <div class="container border-top">
+        <ul class="list-unstyled d-flex py-5 ">
+            <li><a href="#" class="py-2 px-4">服務方案</a></li>
+            <li><a href="#" class="py-2 px-4">關於職旅</a></li>
+            <li><a href="#" class="py-2 px-4">聯絡我們</a></li>
+            <li><a href="#" class="py-2 px-4">隱私權政策</a></li>
+            <li><a href="#" class="py-2 px-4">用戶條款</a></li>
+            <li class="ms-auto"><a href="#" class="text-secondary py-2 ">Copyright © 2025 職旅 workway. All rights
+                    reserved.</a>
+            </li>
+        </ul>
+    </div>
+</footer>
 </body>
 
 </html>
