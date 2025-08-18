@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 
   <title>index</title>
-  <script type="module" crossorigin src="/0813-form/assets/main-CCu_mpxy.js"></script>
-  <link rel="stylesheet" crossorigin href="/0813-form/assets/main-Dvor5DO6.css">
+  <script type="module" crossorigin src="/0813-form/assets/main-Bw4Li8g-.js"></script>
+  <link rel="stylesheet" crossorigin href="/0813-form/assets/main-CYGGv2uE.css">
 </head>
 
 <body>
@@ -34,7 +34,8 @@
             <div class="offcanvas-body d-flex justify-content-between align-items-center flex-column ">
                 <ul class="navbar-nav  mx-lg-auto text-center">
                     <li class="nav-item me-lg-3">
-                        <a class="nav-link px-lg-5 py-4 py-lg-2 mb-5 mb-lg-0" aria-current="page" href="#">服務方案</a>
+                        <a class="nav-link px-lg-5 py-4 py-lg-2 mb-5 mb-lg-0" aria-current="page"
+                            href="servicePlan.html">服務方案</a>
                     </li>
                     <li class="nav-item me-lg-3">
                         <a class="nav-link  px-lg-5 py-4 py-lg-2 mb-5 mb-lg-0" href="#">關於職旅</a>
@@ -53,12 +54,160 @@
 
         </div>
         <div class="order-lg-3 ms-auto order-2 me-3 me-lg-0">
-            <a href="#">
-                <button type="button" class="btn btn-light border">登入/註冊</button>
-                <!-- <img src="../assets/images/avatar.png" alt="avatar" class="user-image rounded-circle me-2 ">
+            <button type="button" class="btn btn-light border" data-bs-toggle="modal"
+                data-bs-target="#loginModal">登入/註冊</button>
+            <!-- <img src="../assets/images/avatar.png" alt="avatar" class="user-image rounded-circle me-2 ">
                 <span class="d-none d-lg-inline">Mokumaru</span> -->
-            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 1200px;">
+                    <div class="modal-content">
+                        <div class="modal-body d-flex justify-content-center p-0">
+                            <div class="d-none d-lg-block" style="width: 700px;">
+                                <img src="/0813-form/assets/login-Crce8Rsb.png" alt="login"
+                                    class="rounded-start-3 object-fit-cover h-100">
+                            </div>
+                            <div class="d-flex flex-column position-relative pt-5 pb-9 px-lg-6" style="width: 500px;">
+                                <button type="button" class="btn-close position-absolute top-12 end-12"
+                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h3 class="mx-auto mb-5">登入</h3>
+                                <div class="border-bottom d-flex flex-column pb-5">
+                                    <button type="button" class="btn border-natural-85 py-3 mb-4 align-bottom">
+                                        <img src="data:image/svg+xml,%3csvg%20height='1em'%20style='flex:none;line-height:1'%20viewBox='0%200%2024%2024'%20width='1em'%20xmlns='http://www.w3.org/2000/svg'%3e%3ctitle%3eGoogle%3c/title%3e%3cpath%20d='M23%2012.245c0-.905-.075-1.565-.236-2.25h-10.54v4.083h6.186c-.124%201.014-.797%202.542-2.294%203.569l-.021.136%203.332%202.53.23.022C21.779%2018.417%2023%2015.593%2023%2012.245z'%20fill='%234285F4'%3e%3c/path%3e%3cpath%20d='M12.225%2023c3.03%200%205.574-.978%207.433-2.665l-3.542-2.688c-.948.648-2.22%201.1-3.891%201.1a6.745%206.745%200%2001-6.386-4.572l-.132.011-3.465%202.628-.045.124C4.043%2020.531%207.835%2023%2012.225%2023z'%20fill='%2334A853'%3e%3c/path%3e%3cpath%20d='M5.84%2014.175A6.65%206.65%200%20015.463%2012c0-.758.138-1.491.361-2.175l-.006-.147-3.508-2.67-.115.054A10.831%2010.831%200%20001%2012c0%201.772.436%203.447%201.197%204.938l3.642-2.763z'%20fill='%23FBBC05'%3e%3c/path%3e%3cpath%20d='M12.225%205.253c2.108%200%203.529.892%204.34%201.638l3.167-3.031C17.787%202.088%2015.255%201%2012.225%201%207.834%201%204.043%203.469%202.197%207.062l3.63%202.763a6.77%206.77%200%20016.398-4.572z'%20fill='%23EB4335'%3e%3c/path%3e%3c/svg%3e" alt="google"
+                                            style="width: 20opx; height: 20px;"> Google
+                                    </button>
+                                    <button type="button" class="btn border-natural-85 py-3 mb-4 align-bottom">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="bi bi-discord text-primary me-1"
+                                            viewBox="0 0 16 16 ">
+                                            <path
+                                                d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+                                        </svg></i>Discord
+                                    </button>
+                                </div>
+                                <div class="pt-5">
+                                    <div class="form-floating mb-4">
+                                        <input type="text" class="form-control" id="username" placeholder="帳號">
+                                        <label for="username">帳號</label>
+                                    </div>
+                                    <div class="form-floating input-group mb-4 d-flex ">
+                                        <input type="password" class="form-control border-end-0" id="password"
+                                            placeholder="密碼">
+                                        <span
+                                            class="input-group-text material-symbols-outlined border-start-0 rounded-end-2">
+                                            visibility_off
+                                        </span>
+                                        <label for="password">密碼</label>
+                                    </div>
+                                    <p class="text-natural-50 text-end mb-4">忘記密碼</p>
+                                    <button type="button" class="btn btn-dark  w-100 mb-lg-6 mb-5">送出
+                                        <span class="material-symbols-outlined align-bottom">
+                                            chevron_right
+                                        </span>
+                                    </button>
+                                    <p class="text-natural-50 text-center">不是會員？<a href="#"
+                                            class="text-primary text-decoration-underline" data-bs-dismiss="modal"
+                                            data-bs-toggle="modal" data-bs-target="#register">快速註冊</a></p>
+                                    <!-- registerModel -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- registerModel -->
+            <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" style="max-width: 1200px;">
+                    <div class="modal-content">
+                        <div class="modal-body d-flex justify-content-center p-0">
+                            <div class="d-flex flex-column position-relative pt-5 pb-9  pb-lg-6 px-lg-6"
+                                style="width: 500px;">
+                                <button type="button" class="btn-close position-absolute top-12 end-12"
+                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                <h3 class="mx-auto mb-5">登入</h3>
+                                <div class="border-bottom d-flex flex-column pb-5">
+                                    <button type="button" class="btn border-natural-85 py-3 mb-4 align-bottom">
+                                        <img src="data:image/svg+xml,%3csvg%20height='1em'%20style='flex:none;line-height:1'%20viewBox='0%200%2024%2024'%20width='1em'%20xmlns='http://www.w3.org/2000/svg'%3e%3ctitle%3eGoogle%3c/title%3e%3cpath%20d='M23%2012.245c0-.905-.075-1.565-.236-2.25h-10.54v4.083h6.186c-.124%201.014-.797%202.542-2.294%203.569l-.021.136%203.332%202.53.23.022C21.779%2018.417%2023%2015.593%2023%2012.245z'%20fill='%234285F4'%3e%3c/path%3e%3cpath%20d='M12.225%2023c3.03%200%205.574-.978%207.433-2.665l-3.542-2.688c-.948.648-2.22%201.1-3.891%201.1a6.745%206.745%200%2001-6.386-4.572l-.132.011-3.465%202.628-.045.124C4.043%2020.531%207.835%2023%2012.225%2023z'%20fill='%2334A853'%3e%3c/path%3e%3cpath%20d='M5.84%2014.175A6.65%206.65%200%20015.463%2012c0-.758.138-1.491.361-2.175l-.006-.147-3.508-2.67-.115.054A10.831%2010.831%200%20001%2012c0%201.772.436%203.447%201.197%204.938l3.642-2.763z'%20fill='%23FBBC05'%3e%3c/path%3e%3cpath%20d='M12.225%205.253c2.108%200%203.529.892%204.34%201.638l3.167-3.031C17.787%202.088%2015.255%201%2012.225%201%207.834%201%204.043%203.469%202.197%207.062l3.63%202.763a6.77%206.77%200%20016.398-4.572z'%20fill='%23EB4335'%3e%3c/path%3e%3c/svg%3e" alt="google"
+                                            style="width: 20opx; height: 20px;">
+                                        Google
+                                    </button>
+                                    <button type="button" class="btn border-natural-85 py-3 mb-4 align-bottom">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            fill="currentColor" class="bi bi-discord text-primary me-1"
+                                            viewBox="0 0 16 16 ">
+                                            <path
+                                                d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612" />
+                                        </svg></i>Discord
+                                    </button>
+                                </div>
+                                <div class="pt-5">
+                                    <div class="form-floating mb-4">
+                                        <input type="text" class="form-control" id="username" placeholder="帳號">
+                                        <label for="username">帳號</label>
+                                    </div>
+                                    <div class="form-floating input-group mb-4 d-flex ">
+                                        <input type="password" class="form-control border-end-0" id="password"
+                                            placeholder="密碼">
+                                        <span
+                                            class="input-group-text material-symbols-outlined border-start-0 rounded-end-2">
+                                            visibility_off
+                                        </span>
+                                        <label for="password">密碼</label>
+                                    </div>
+                                    <div class="form-floating input-group mb-4 d-flex ">
+                                        <input type="password" class="form-control border-end-0" id="password2"
+                                            placeholder="密碼">
+                                        <span
+                                            class="input-group-text material-symbols-outlined border-start-0 rounded-end-2">
+                                            visibility_off
+                                        </span>
+                                        <label for="password2">密碼</label>
+                                    </div>
+                                    <div class="form-floating input-group mb-4 d-flex ">
+                                        <input type="password" class="form-control border-end-0" id="password3"
+                                            placeholder="密碼">
+                                        <span
+                                            class="input-group-text material-symbols-outlined border-start-0 rounded-end-2">
+                                            visibility_off
+                                        </span>
+                                        <label for="password3">確認密碼</label>
+                                    </div>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input class="form-check-input me-1" type="checkbox" value=""
+                                        id="checkIndeterminate">
+                                    <label class="form-check-label" for="checkIndeterminate">
+                                        我同意<a href="#" class="mx-1 text-primary text-decoration-underline">服務條款</a>和<a
+                                            href="#" class="text-primary ms-1 text-decoration-underline">隱私政策
+
+                                        </a>
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-dark  w-100 mb-lg-6 mb-5">
+                                    送出
+                                    <span class="material-symbols-outlined align-bottom">
+                                        chevron_right
+                                    </span>
+                                </button>
+                                <p class="text-natural-50 text-center">已經會員？<a href="#"
+                                        class="text-primary text-decoration-underline" data-bs-toggle="modal"
+                                        data-bs-target="#loginModal">直接登入</a></p>
+                            </div>
+                            <div class="d-none d-lg-block" style="width: 700px;">
+                                <img src="/0813-form/assets/left-DHFxnl5Y.png" alt="register"
+                                    class="rounded-end-3  object-fit-cover h-100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
+    </div>
+
+    </div>
     </div>
 </nav>    <main class="bg-natural-95">
       <div class="container py-7">
