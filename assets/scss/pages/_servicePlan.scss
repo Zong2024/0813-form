@@ -1,0 +1,38 @@
+.banner{
+    background-image: url("/assets/images/servicePlan/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width:992px) {
+    .banner{
+        background-image: url("/assets/images/servicePlan/banner-bg-pc.png");
+    }
+}
+.banner-person{
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 400px)
+}
+
+.diamond{
+    width: 14px;
+    height: 14px;
+    border: 3.5px solid  $primary;
+    box-sizing: border-box;
+    display: inline-block;
+    transform: rotate(45deg);
+    margin-right: 8px;
+
+}
+
+.hot-tag{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $secondary;
+    border: 2px solid $secondary;
+    border-radius: 20px 0 12px 0;
+    padding: 8px 16px;
+}
